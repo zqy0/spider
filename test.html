@@ -1,126 +1,82 @@
+ <div class="acountContent">
+   	 <ul class="frmElements">
+   	 <li class="clearfix"><span class="fl tr">校区：</span>      
+          <select name="drxiaoqu" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;drxiaoqu\&#39;,\&#39;\&#39;)&#39;, 0)" id="drxiaoqu">
+	<option value="">校区</option>
+	<option selected="selected" value="1">通灌校区</option>
+	<option value="2">苍梧校区AD区B13</option>
+	<option value="3">苍梧校区B区</option>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+</select>        
+      </li>
+   	 <li id="louming" class="clearfix"><span class="fl tr">楼栋：</span>      
+          <select name="drlouming" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;drlouming\&#39;,\&#39;\&#39;)&#39;, 0)" id="drlouming">
+	<option value="">楼名</option>
+	<option selected="selected" value="51">1号楼       </option>
+	<option value="52">2号楼       </option>
+	<option value="53">5号楼       </option>
+	<option value="54">6号楼       </option>
+	<option value="55">7号楼       </option>
+	<option value="56">8号楼       </option>
+	<option value="878">3号楼       </option>
+	<option value="879">4号楼       </option>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>用电记录</title>
-<link rel="stylesheet" type="text/css" href="css/page.css"/>
-<link rel="stylesheet" type="text/css" href="css/theme1.css"/>
-<script src="js/webcalendar.js" type="text/javascript"></script>
-</head>
+</select>
+      </li>
+      <li id="ceng" class="clearfix"><span class="fl tr">楼层：</span>      
+          <select name="drceng" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;drceng\&#39;,\&#39;\&#39;)&#39;, 0)" id="drceng">
+	<option value="">楼层</option>
+	<option value="627">1号楼1层    </option>
+	<option selected="selected" value="628">1号楼2层    </option>
+	<option value="629">1号楼3层    </option>
+	<option value="630">1号楼4层    </option>
 
-<body>
-<form name="form1" method="post" action="usedRecord.aspx" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE0ODczMDEwNjkPZBYCAgEPZBYCAgMPFgIeC18hSXRlbUNvdW50AgoWFGYPZBYCZg8VAwoyMDE3LzEyLzE3BTEyLjgxBi05NS42NGQCAQ9kFgJmDxUDCjIwMTcvMTIvMTYEMi43NQYtODIuODNkAgIPZBYCZg8VAwoyMDE3LzEyLzE1BDkuMjcGLTgwLjA4ZAIDD2QWAmYPFQMKMjAxNy8xMi8xNAQ4LjI2Bi03MC44MWQCBA9kFgJmDxUDCjIwMTcvMTIvMTMEOS4yNwYtNjIuNTVkAgUPZBYCZg8VAwoyMDE3LzEyLzEyBTExLjIyBi01My4yOGQCBg9kFgJmDxUDCjIwMTcvMTIvMTEENi44NgYtNDIuMDZkAgcPZBYCZg8VAwoyMDE3LzEyLzEwBDMuNzYGLTM1LjIwZAIID2QWAmYPFQMKMjAxNy8xMi8wOQUxNi40NAYtMzEuNDRkAgkPZBYCZg8VAwoyMDE3LzEyLzA4BDMuODQGLTE1LjAwZGTTcXkBrRGP3hOE5Z7UHnxsDa7xIMrukXx/udQHlzMYwg==" />
+</select>        
+      </li>
+      <li id="fangjian" class="clearfix"><span class="fl tr">房间：</span>       
+          <select name="drfangjian" id="drfangjian">
+	<option value="">房间</option>
+	<option value="661">1-201       </option>
+	<option value="662">1-202       </option>
+	<option value="663">1-203       </option>
+	<option value="664">1-204       </option>
+	<option value="665">1-205       </option>
+	<option value="666">1-206       </option>
+	<option value="667">1-207       </option>
+	<option value="668">1-208       </option>
+	<option value="669">1-209       </option>
+	<option value="671">1-210       </option>
+	<option value="672">1-211       </option>
+	<option value="673">1-212       </option>
+	<option value="674">1-217       </option>
+	<option value="675">1-214       </option>
+	<option value="676">1-215       </option>
+	<option value="677">1-216       </option>
+	<option value="678">1-213       </option>
+	<option value="679">1-218       </option>
+	<option value="680">1-219       </option>
+	<option value="681">1-220       </option>
+	<option value="682">1-221       </option>
+	<option value="683">1-222       </option>
+	<option value="684">1-223       </option>
+	<option value="685">1-224       </option>
+	<option value="686">1-225       </option>
+	<option value="687">1-226       </option>
+	<option value="688">1-227       </option>
+	<option value="689">1-228       </option>
+	<option value="690">1-229       </option>
 
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBAKU8p6sAQLE2qDzBgKG+5Y+AouTwe8CQpIpxH1k01vaboehfGVDnhLtVaBZ0am8AwGmlJ76FnU=" />
-<div class="wrap">
-  <div class="banner"><img src="images/banner.jpg" alt="" />
+</select>      
+      </li>
+    </ul>
+    <p class="radioGroup">
+      <input value="buyR" name="radio" type="radio" id="buyR" />
+      <label for="buyR">购电记录</label>
+      &nbsp;&nbsp;&nbsp;
+      <input value="usedR" name="radio" type="radio" id="usedR" />
+      <label for="usedR">用电记录</label>
+    </p>
+    <p>
+        <input type="image" name="ImageButton1" id="ImageButton1" src="images/btn_log.png" style="border-width:0px;" />&nbsp;&nbsp;&nbsp;<input type="image" name="ImageButton2" id="ImageButton2" src="images/btn_reset.png" style="border-width:0px;" /></p>
+ 
   </div>
-  <div class="main">
-    <div class="crumb">
-      <h2>欢迎登录购电查询系统</h2>
-      <hr  class="line"/>
-      <h6>当前账户剩余金额：<span class="number orange">0</span> 元</h6>
-      <div class="status">
-      	日期：2018年01月29日  星期一
-          <a href="Default.aspx">退出</a>
-      </div>
-    </div>
-    <div class="searchFrm">
-
-    	<ul>
-        	<li>日期：</li>
-            <li><input name="txtstart" type="text" id="txtstart" class="inp" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" value="2017-09-23" /></li>
-            <li>至</li>
-            <li><input name="txtend" type="text" id="txtend" class="inp" onclick="SelectDate(this,&#39;yyyy-MM-dd&#39;)" value="2017-12-17" /></li>
-            <li>
-                <input type="submit" name="btnser" value="查询" id="btnser" class="inb" /></li>
-        </ul>
-
-    </div>
-    <div class="searchRes">
-    	<table cellpadding="0" cellspacing="0" border="0" width="100%" class="dataTable">
-        	<tr class="titleLine">
-        	<td width="40%">时间</td>
-            <td width="30%">用量(度)</td>
-            <td width="30%">剩余电量(度)</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/17</td>
-            <td>12.81</td>
-            <td>-95.64</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/16</td>
-            <td>2.75</td>
-            <td>-82.83</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/15</td>
-            <td>9.27</td>
-            <td>-80.08</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/14</td>
-            <td>8.26</td>
-            <td>-70.81</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/13</td>
-            <td>9.27</td>
-            <td>-62.55</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/12</td>
-            <td>11.22</td>
-            <td>-53.28</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/11</td>
-            <td>6.86</td>
-            <td>-42.06</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/10</td>
-            <td>3.76</td>
-            <td>-35.20</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/09</td>
-            <td>16.44</td>
-            <td>-31.44</td>
-            </tr>
-
-            <tr class="contentLine">
-            <td>2017/12/08</td>
-            <td>3.84</td>
-            <td>-15.00</td>
-            </tr>
-
-
-
-        </table>
-        <div class="pageer">
-        	第 1 页 / 共 9 页  每页 10 条
-            <div class="pageControl">
-
-            	<a href="usedRecord.aspx">首页</a> | <a href="javascript:void(0)">上一页</a><a href="javascript:void(0)" >1</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=2" >2</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=3" >3</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=4" >4</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=5" >5</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=6" >6</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=7" >7</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=8" >8</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=9" >9</a><a href="http://58.192.29.142/simscxall/usedRecord.aspx?p=2">下一页</a> | <a href="usedRecord.aspx?p=9">尾页</a>
-            </div>
-        </div>
-    </div>
-  </div>
-</div>
-</form>
-</body>
-</html>
